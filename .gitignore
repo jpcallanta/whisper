@@ -1,0 +1,31 @@
+# Go build and output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+whisper
+
+# IDE and editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vendor (uncomment if not committing vendored deps)
+# vendor/
+
+# Cursor
+.cursorrules
+.cursor/
+
+# Ignore CSV files
+*.csv
